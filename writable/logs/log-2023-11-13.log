@@ -1,0 +1,261 @@
+CRITICAL - 2023-11-13 19:49:02 --> Invalid file: .php
+#0 C:\coding\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 C:\coding\system\Common.php(1089): CodeIgniter\View\View->render('', Array, true)
+#2 C:\coding\app\Controllers\Home.php(120): view('')
+#3 C:\coding\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 C:\coding\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#8 {main}
+CRITICAL - 2023-11-13 20:02:58 --> syntax error, unexpected token "public"
+#0 C:\coding\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\coding\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\coding\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#6 {main}
+CRITICAL - 2023-11-13 20:03:02 --> syntax error, unexpected token "public"
+#0 C:\coding\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\coding\\app\\C...')
+#1 C:\coding\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\coding\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\coding\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#8 {main}
+CRITICAL - 2023-11-13 20:03:58 --> syntax error, unexpected token "public"
+#0 C:\coding\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\coding\\app\\C...')
+#1 C:\coding\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\coding\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\coding\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#8 {main}
+CRITICAL - 2023-11-13 20:04:02 --> syntax error, unexpected token "public"
+#0 C:\coding\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\coding\\app\\C...')
+#1 C:\coding\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\coding\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\coding\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#8 {main}
+CRITICAL - 2023-11-13 20:04:51 --> syntax error, unexpected token "public"
+#0 C:\coding\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\coding\\app\\C...')
+#1 C:\coding\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\coding\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\coding\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#8 {main}
+CRITICAL - 2023-11-13 20:05:05 --> syntax error, unexpected token "public"
+#0 C:\coding\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\coding\\app\\C...')
+#1 C:\coding\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\coding\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\coding\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#8 {main}
+CRITICAL - 2023-11-13 20:06:20 --> syntax error, unexpected token "public"
+#0 C:\coding\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\coding\\app\\C...')
+#1 C:\coding\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\coding\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\coding\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#8 {main}
+CRITICAL - 2023-11-13 20:06:23 --> syntax error, unexpected token "public"
+#0 C:\coding\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\coding\\app\\C...')
+#1 C:\coding\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\coding\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\coding\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#8 {main}
+CRITICAL - 2023-11-13 20:06:35 --> syntax error, unexpected token "public"
+#0 C:\coding\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\coding\\app\\C...')
+#1 C:\coding\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\coding\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\coding\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#8 {main}
+CRITICAL - 2023-11-13 20:06:37 --> syntax error, unexpected token "public"
+#0 C:\coding\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\coding\\app\\C...')
+#1 C:\coding\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\coding\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\coding\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#8 {main}
+CRITICAL - 2023-11-13 20:06:38 --> syntax error, unexpected token "public"
+#0 C:\coding\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\coding\\app\\C...')
+#1 C:\coding\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\coding\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\coding\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#8 {main}
+CRITICAL - 2023-11-13 20:14:46 --> syntax error, unexpected token "/", expecting "," or ";"
+#0 C:\coding\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\coding\\app\\M...')
+#1 C:\coding\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\mode...')
+#2 C:\coding\app\Controllers\Home.php(129): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\mode...')
+#3 C:\coding\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 C:\coding\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#8 {main}
+CRITICAL - 2023-11-13 20:15:11 --> syntax error, unexpected token "/", expecting "," or ";"
+#0 C:\coding\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\coding\\app\\M...')
+#1 C:\coding\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\mode...')
+#2 C:\coding\app\Controllers\Home.php(129): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\mode...')
+#3 C:\coding\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 C:\coding\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#8 {main}
+CRITICAL - 2023-11-13 20:16:20 --> syntax error, unexpected token "/", expecting "," or ";"
+#0 C:\coding\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\coding\\app\\M...')
+#1 C:\coding\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\mode...')
+#2 C:\coding\app\Controllers\Home.php(129): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\mode...')
+#3 C:\coding\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 C:\coding\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#8 {main}
+CRITICAL - 2023-11-13 20:17:40 --> syntax error, unexpected token "/", expecting "," or ";"
+#0 C:\coding\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\coding\\app\\M...')
+#1 C:\coding\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 C:\coding\app\Controllers\Home.php(129): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 C:\coding\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 C:\coding\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#8 {main}
+CRITICAL - 2023-11-13 20:17:50 --> syntax error, unexpected token "/", expecting "," or ";"
+#0 C:\coding\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\coding\\app\\M...')
+#1 C:\coding\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 C:\coding\app\Controllers\Home.php(129): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 C:\coding\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 C:\coding\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#8 {main}
+CRITICAL - 2023-11-13 20:18:17 --> syntax error, unexpected token "/", expecting "," or ";"
+#0 C:\coding\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\coding\\app\\M...')
+#1 C:\coding\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\mode...')
+#2 C:\coding\app\Controllers\Home.php(129): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\mode...')
+#3 C:\coding\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 C:\coding\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#8 {main}
+CRITICAL - 2023-11-13 20:18:29 --> syntax error, unexpected token "/", expecting "," or ";"
+#0 C:\coding\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\coding\\app\\M...')
+#1 C:\coding\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\mode...')
+#2 C:\coding\app\Controllers\Home.php(129): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\mode...')
+#3 C:\coding\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 C:\coding\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#8 {main}
+CRITICAL - 2023-11-13 20:19:31 --> syntax error, unexpected token ":", expecting "," or ";"
+#0 C:\coding\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\coding\\app\\M...')
+#1 C:\coding\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\mode...')
+#2 C:\coding\app\Controllers\Home.php(129): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\mode...')
+#3 C:\coding\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 C:\coding\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#8 {main}
+CRITICAL - 2023-11-13 20:19:52 --> syntax error, unexpected token ":", expecting "," or ";"
+#0 C:\coding\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\coding\\app\\M...')
+#1 C:\coding\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\mode...')
+#2 C:\coding\app\Controllers\Home.php(129): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\mode...')
+#3 C:\coding\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 C:\coding\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#8 {main}
+CRITICAL - 2023-11-13 20:20:04 --> syntax error, unexpected token ":", expecting "," or ";"
+#0 C:\coding\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\coding\\app\\M...')
+#1 C:\coding\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\mode...')
+#2 C:\coding\app\Controllers\Home.php(129): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\mode...')
+#3 C:\coding\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 C:\coding\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#8 {main}
+CRITICAL - 2023-11-13 20:21:35 --> syntax error, unexpected token ":", expecting "," or ";"
+#0 C:\coding\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\coding\\app\\M...')
+#1 C:\coding\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\mode...')
+#2 C:\coding\app\Controllers\Home.php(129): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\mode...')
+#3 C:\coding\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 C:\coding\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#8 {main}
+CRITICAL - 2023-11-13 20:23:12 --> syntax error, unexpected token ":", expecting "," or ";"
+#0 C:\coding\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\coding\\app\\M...')
+#1 C:\coding\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\mode...')
+#2 C:\coding\app\Controllers\Home.php(129): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\mode...')
+#3 C:\coding\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 C:\coding\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#8 {main}
+CRITICAL - 2023-11-13 20:24:15 --> Cannot declare class App\model\model because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-13 20:26:29 --> Class "App\Models\P" not found
+#0 C:\coding\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\coding\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#5 {main}
+ERROR - 2023-11-13 20:27:01 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2023-11-13 20:27:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\coding\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\coding\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\coding\app\Models\P.php(12): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\coding\app\Controllers\Home.php(130): App\Models\P->getwhere('user', Array)
+#4 C:\coding\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 C:\coding\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#9 {main}

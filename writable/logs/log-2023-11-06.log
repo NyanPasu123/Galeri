@@ -1,0 +1,16 @@
+CRITICAL - 2023-11-06 18:30:03 --> Unclosed '{' on line 6
+#0 C:\codeigniter4-CodeIgniter4-202f41a\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/form_custo...')
+#1 C:\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/form_custo...')
+#2 C:\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\codeigniter4...')
+#6 {main}
+CRITICAL - 2023-11-06 18:34:42 --> Unclosed '{' on line 6
+#0 C:\codeigniter4-CodeIgniter4-202f41a\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/form_hr')
+#1 C:\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/form_hr')
+#2 C:\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\codeigniter4...')
+#6 {main}

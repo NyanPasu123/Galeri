@@ -1,0 +1,8 @@
+CRITICAL - 2023-11-05 20:29:33 --> syntax error, unexpected token "-", expecting "("
+#0 C:\codeigniter4-CodeIgniter4-202f41a\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/form-karya...')
+#1 C:\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/form-karya...')
+#2 C:\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\codeigniter4...')
+#6 {main}

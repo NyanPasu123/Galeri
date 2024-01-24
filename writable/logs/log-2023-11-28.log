@@ -1,0 +1,16 @@
+CRITICAL - 2023-11-28 20:08:14 --> Undefined variable $pacaran
+#0 C:\coding\app\Views\karyawan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\coding\\app\\V...', 34)
+#1 C:\coding\system\View\View.php(210): include('C:\\coding\\app\\V...')
+#2 C:\coding\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\coding\system\Common.php(1089): CodeIgniter\View\View->render('karyawan', Array, true)
+#4 C:\coding\app\Views\index.php(485): view('karyawan')
+#5 C:\coding\system\View\View.php(210): include('C:\\coding\\app\\V...')
+#6 C:\coding\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\coding\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\coding\app\Controllers\Home.php(38): view('index', Array)
+#9 C:\coding\system\CodeIgniter.php(832): App\Controllers\Home->karyawan()
+#10 C:\coding\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\coding\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\coding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\coding\system\Commands\Server\rewrite.php(43): require_once('C:\\coding\\publi...')
+#14 {main}
